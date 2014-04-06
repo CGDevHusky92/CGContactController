@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E322AEF18F2083E0005CF17 /* CGContactController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFE30F618E65B84003CBAFD /* CGContactController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EFE30D118E65B23003CBAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE30D018E65B23003CBAFD /* Foundation.framework */; };
 		2EFE30DF18E65B23003CBAFD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE30DE18E65B23003CBAFD /* XCTest.framework */; };
 		2EFE30E018E65B23003CBAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE30D018E65B23003CBAFD /* Foundation.framework */; };
@@ -147,6 +148,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2E322AEE18F2083A0005CF17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E322AEF18F2083E0005CF17 /* CGContactController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		2EFE30CC18E65B23003CBAFD /* CGContactController */ = {
 			isa = PBXNativeTarget;
@@ -155,6 +167,7 @@
 				2EFE30C918E65B23003CBAFD /* Sources */,
 				2EFE30CA18E65B23003CBAFD /* Frameworks */,
 				2EFE30CB18E65B23003CBAFD /* CopyFiles */,
+				2E322AEE18F2083A0005CF17 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -427,6 +440,7 @@
 				2EFE30F218E65B23003CBAFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EFE30F318E65B23003CBAFD /* Build configuration list for PBXNativeTarget "CGContactControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +449,7 @@
 				2EFE30F518E65B23003CBAFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
